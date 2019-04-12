@@ -4,9 +4,7 @@ header('Access-Control-Allow-Origin: *');
 #header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 
 #header 2
-function test(){
-	echo "Welcome test";
-}
+
 class Bms_api_for_mobile_v2_0 extends CI_Controller {	
     
     function __construct () { 

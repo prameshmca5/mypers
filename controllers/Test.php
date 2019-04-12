@@ -27,6 +27,7 @@ class Test extends CI_Controller {
         $data = unserialize($json);
         echo '<b>'. $ip .'</b> resolves to:' ;
         echo "<pre>";print_r($data); echo "</pre>";
+		echo "Welcome test content";
     }
     
     function date_diff () {
